@@ -1,0 +1,61 @@
+/* static/lolita.css */
+
+/* Nền và font chính */
+body.lolita-bg {
+    background: linear-gradient(135deg, #fff0f5, #ffeefc);
+    font-family: 'Comic Sans MS', 'Segoe UI', cursive, sans-serif;
+  }
+  
+  /* Tiêu đề */
+  .lolita-title {
+    color: #d63384;
+    font-weight: bold;
+    text-shadow: 1px 1px #f9c5d1;
+  }
+  
+  /* Thẻ card dễ thương */
+  .lolita-card {
+    background-color: #fffafc;
+    border: 3px dashed #f5b5d3;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(255, 182, 193, 0.3);
+  }
+  
+  /* Nút hồng pastel */
+  .lolita-button {
+    background-color: #ff88bb;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: 0.3s ease;
+    padding: 10px 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .lolita-button:hover {
+    background-color: #ffa3cc;
+    transform: scale(1.05);
+  }
+  
+  /* Input, select style */
+  input.form-control,
+  select.form-select {
+    border: 2px solid #f5b5d3;
+    border-radius: 10px;
+    background-color: #fff0f8;
+  }
+  
+  /* Hiệu ứng cho alert */
+  .alert-success {
+    background-color: #ffe0f0;
+    color: #c71585;
+    border: 1px solid #f4a2c0;
+  }
+  
+  .alert-danger {
+    background-color: #ffe0e8;
+    color: #a80032;
+    border: 1px solid #f199ad;
+  }
+  
